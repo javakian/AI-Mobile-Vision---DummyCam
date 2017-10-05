@@ -1,0 +1,6 @@
+framework module Pods_DummyCam {
+  umbrella header "Pods-DummyCam-umbrella.h"
+
+  export *
+  module * { export * }
+}
