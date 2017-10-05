@@ -201,7 +201,7 @@
 				TargetAttributes = {
 					AECD9C141F8645E8004FE985 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					AECD9C281F8645E9004FE985 = {
 						CreatedOnToolsVersion = 9.0;
@@ -511,12 +511,15 @@
 			baseConfigurationReference = 1CFD6B883F1D5FFCD5A2B468 /* Pods-DummyCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9E7WT5TMJR;
 				INFOPLIST_FILE = DummyCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ai.tsok.DummyCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7c523962-caf9-4fa9-b162-91d2bf2bb00d";
+				PROVISIONING_PROFILE_SPECIFIER = "TSOK AI Team Profile";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -527,12 +530,15 @@
 			baseConfigurationReference = 7824CF2D2D76604ED160386F /* Pods-DummyCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9E7WT5TMJR;
 				INFOPLIST_FILE = DummyCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ai.tsok.DummyCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7c523962-caf9-4fa9-b162-91d2bf2bb00d";
+				PROVISIONING_PROFILE_SPECIFIER = "TSOK AI Team Profile";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
