@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29879052690E6405D76A1725 /* Pods_DummyCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282F980442FF3EF8A921D20D /* Pods_DummyCam.framework */; };
+		885C419C6D6270CAEDC54F85 /* Pods_DummyCamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D0D6C9FCB64076B3FCE0A4 /* Pods_DummyCamUITests.framework */; };
 		AECD9C191F8645E9004FE985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD9C181F8645E9004FE985 /* AppDelegate.swift */; };
 		AECD9C1B1F8645E9004FE985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD9C1A1F8645E9004FE985 /* ViewController.swift */; };
 		AECD9C1E1F8645E9004FE985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECD9C1C1F8645E9004FE985 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		AECD9C2E1F8645E9004FE985 /* DummyCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD9C2D1F8645E9004FE985 /* DummyCamUITests.swift */; };
 		AECD9C3A1F8646A4004FE985 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD9C391F8646A4004FE985 /* VideoCapture.swift */; };
 		AECD9C3C1F86475C004FE985 /* VideoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD9C3B1F86475C004FE985 /* VideoCaptureDelegate.swift */; };
+		AECD9C3E1F864FD0004FE985 /* ViewController+VideoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD9C3D1F864FD0004FE985 /* ViewController+VideoCaptureDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CFD6B883F1D5FFCD5A2B468 /* Pods-DummyCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DummyCam/Pods-DummyCam.debug.xcconfig"; sourceTree = "<group>"; };
+		282F980442FF3EF8A921D20D /* Pods_DummyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9B565E2765DA61CC50FB9E /* Pods-DummyCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DummyCamUITests/Pods-DummyCamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72D0D6C9FCB64076B3FCE0A4 /* Pods_DummyCamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyCamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7328E208EADE9B1844093768 /* Pods-DummyCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DummyCamUITests/Pods-DummyCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7824CF2D2D76604ED160386F /* Pods-DummyCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-DummyCam/Pods-DummyCam.release.xcconfig"; sourceTree = "<group>"; };
 		AECD9C151F8645E8004FE985 /* DummyCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECD9C181F8645E9004FE985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AECD9C1A1F8645E9004FE985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +49,7 @@
 		AECD9C2F1F8645E9004FE985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AECD9C391F8646A4004FE985 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		AECD9C3B1F86475C004FE985 /* VideoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureDelegate.swift; sourceTree = "<group>"; };
+		AECD9C3D1F864FD0004FE985 /* ViewController+VideoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+VideoCaptureDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29879052690E6405D76A1725 /* Pods_DummyCam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885C419C6D6270CAEDC54F85 /* Pods_DummyCamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24914BE8BB613DE47B64FEAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282F980442FF3EF8A921D20D /* Pods_DummyCam.framework */,
+				72D0D6C9FCB64076B3FCE0A4 /* Pods_DummyCamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DC98EBEE9C756AD094491C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD6B883F1D5FFCD5A2B468 /* Pods-DummyCam.debug.xcconfig */,
+				7824CF2D2D76604ED160386F /* Pods-DummyCam.release.xcconfig */,
+				7328E208EADE9B1844093768 /* Pods-DummyCamUITests.debug.xcconfig */,
+				4E9B565E2765DA61CC50FB9E /* Pods-DummyCamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AECD9C0C1F8645E8004FE985 = {
 			isa = PBXGroup;
 			children = (
 				AECD9C171F8645E8004FE985 /* DummyCam */,
 				AECD9C2C1F8645E9004FE985 /* DummyCamUITests */,
 				AECD9C161F8645E8004FE985 /* Products */,
+				6DC98EBEE9C756AD094491C2 /* Pods */,
+				24914BE8BB613DE47B64FEAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +118,7 @@
 				AECD9C381F864679004FE985 /* Camera */,
 				AECD9C181F8645E9004FE985 /* AppDelegate.swift */,
 				AECD9C1A1F8645E9004FE985 /* ViewController.swift */,
+				AECD9C3D1F864FD0004FE985 /* ViewController+VideoCaptureDelegate.swift */,
 				AECD9C1C1F8645E9004FE985 /* Main.storyboard */,
 				AECD9C1F1F8645E9004FE985 /* Assets.xcassets */,
 				AECD9C211F8645E9004FE985 /* LaunchScreen.storyboard */,
@@ -117,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AECD9C321F8645E9004FE985 /* Build configuration list for PBXNativeTarget "DummyCam" */;
 			buildPhases = (
+				B558E651306EC3143D688C67 /* [CP] Check Pods Manifest.lock */,
 				AECD9C111F8645E8004FE985 /* Sources */,
 				AECD9C121F8645E8004FE985 /* Frameworks */,
 				AECD9C131F8645E8004FE985 /* Resources */,
+				12057BEB16981408A3EC6E36 /* [CP] Embed Pods Frameworks */,
+				6854693AF30B36F40E8A8CAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AECD9C351F8645E9004FE985 /* Build configuration list for PBXNativeTarget "DummyCamUITests" */;
 			buildPhases = (
+				64FD6895A8BC49B1FA486DEC /* [CP] Check Pods Manifest.lock */,
 				AECD9C251F8645E9004FE985 /* Sources */,
 				AECD9C261F8645E9004FE985 /* Frameworks */,
 				AECD9C271F8645E9004FE985 /* Resources */,
+				674419666B7E48A64AA7209E /* [CP] Embed Pods Frameworks */,
+				3B6BA2D989031680F5D2F37C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +249,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12057BEB16981408A3EC6E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyCam/Pods-DummyCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B6BA2D989031680F5D2F37C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyCamUITests/Pods-DummyCamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FD6895A8BC49B1FA486DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DummyCamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674419666B7E48A64AA7209E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyCamUITests/Pods-DummyCamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6854693AF30B36F40E8A8CAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DummyCam/Pods-DummyCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B558E651306EC3143D688C67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DummyCam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AECD9C111F8645E8004FE985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -216,6 +356,7 @@
 				AECD9C1B1F8645E9004FE985 /* ViewController.swift in Sources */,
 				AECD9C3A1F8646A4004FE985 /* VideoCapture.swift in Sources */,
 				AECD9C191F8645E9004FE985 /* AppDelegate.swift in Sources */,
+				AECD9C3E1F864FD0004FE985 /* ViewController+VideoCaptureDelegate.swift in Sources */,
 				AECD9C3C1F86475C004FE985 /* VideoCaptureDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +508,7 @@
 		};
 		AECD9C331F8645E9004FE985 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFD6B883F1D5FFCD5A2B468 /* Pods-DummyCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +524,7 @@
 		};
 		AECD9C341F8645E9004FE985 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7824CF2D2D76604ED160386F /* Pods-DummyCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +540,7 @@
 		};
 		AECD9C361F8645E9004FE985 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7328E208EADE9B1844093768 /* Pods-DummyCamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -413,6 +557,7 @@
 		};
 		AECD9C371F8645E9004FE985 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9B565E2765DA61CC50FB9E /* Pods-DummyCamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

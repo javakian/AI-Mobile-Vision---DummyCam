@@ -22,7 +22,7 @@ public class VideoCapture : NSObject {
     
     var lastTimestamp = CMTime()
     
-    public func setUp(sessionPreset: AVCaptureSession.Preset = .medium, orientation: AVCaptureVideoOrientation = .portrait, completion: @escaping (Bool) -> Void) {
+    public func setUp(sessionPreset: AVCaptureSession.Preset = .high, orientation: AVCaptureVideoOrientation = .portrait, completion: @escaping (Bool) -> Void) {
         queue.async {
             let success = self.setUpCamera(sessionPreset: sessionPreset, orientation: orientation)
             DispatchQueue.main.async{
@@ -40,6 +40,12 @@ public class VideoCapture : NSObject {
             return false
         }
         
+        if captureDevice.isFocusModeSupported(.continuousAutoFocus) {
+            try! captureDevice.lockForConfiguration()
+            captureDevice.focusMode = .continuousAutoFocus
+            captureDevice.unlockForConfiguration()
+        }
+        
         guard let videoInput = try? AVCaptureDeviceInput(device: captureDevice) else {
             print("Error: could not create AVCaptureDeviceInput")
             return false
@@ -50,7 +56,7 @@ public class VideoCapture : NSObject {
         }
         
         let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-        previewLayer.videoGravity = AVLayerVideoGravity.resizeAspect
+        previewLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
         previewLayer.connection?.videoOrientation = orientation
         
         self.previewLayer = previewLayer
@@ -74,6 +80,11 @@ public class VideoCapture : NSObject {
         captureSession.commitConfiguration()
         
         return true
+    }
+    
+    public func set(orientation: AVCaptureVideoOrientation) {
+        videoOutput.connection(with: AVMediaType.video)?.videoOrientation = orientation
+        previewLayer?.connection?.videoOrientation = orientation
     }
     
     public func start() {
