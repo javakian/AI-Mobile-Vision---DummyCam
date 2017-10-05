@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DummyCam.xcscheme</key>
+		<key>DummyCam.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AECD9C141F8645E8004FE985</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AECD9C281F8645E9004FE985</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
