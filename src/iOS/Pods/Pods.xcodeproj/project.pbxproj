@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		074DC4DAE1DC0B92527D1E9B909B0990 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08A67AACA291AEB95C7D6C8BB302E7DB /* Pods-DummyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DummyCam.modulemap"; sourceTree = "<group>"; };
+		08A67AACA291AEB95C7D6C8BB302E7DB /* Pods-DummyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DummyCam.modulemap"; sourceTree = "<group>"; };
 		29E4CAED9F6EB371B7043249C549F5AC /* Pods-DummyCamUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DummyCamUITests-resources.sh"; sourceTree = "<group>"; };
 		311C717CE245715E39D386EF7923FFD6 /* Pods-DummyCamUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DummyCamUITests-frameworks.sh"; sourceTree = "<group>"; };
 		31A193C5EF0F1EC26CA51DFC98D87A37 /* Pods-DummyCamUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DummyCamUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -26,12 +26,12 @@
 		481024B64000F5C577867130BE3215DA /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
 		598244EBD9744F7897317F3149C47CED /* Pods-DummyCam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DummyCam-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		715266FA8BD6FA6D3329938B4E0696B6 /* Pods_DummyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DummyCam.framework; path = "Pods-DummyCam.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715266FA8BD6FA6D3329938B4E0696B6 /* Pods_DummyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		741C03D1C4E47DCAFDB44F57674CAC9C /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
 		7B55986901209EC698A99E538DE7C70B /* Pods-DummyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DummyCam-umbrella.h"; sourceTree = "<group>"; };
 		7BCA321BEE2205DA5B2069EE7D273CDC /* Pods-DummyCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyCam.debug.xcconfig"; sourceTree = "<group>"; };
 		84B2ECC900CA19D5CF7CC6712427AC05 /* Pods-DummyCamUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DummyCamUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D8DDD55E735CFFEA3140273F8551A6 /* Pods-DummyCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97534BEEA4B7C38AD27A0A32BF257792 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEA95DD88A5483926F2AD45512514291 /* Pods-DummyCam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DummyCam-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -39,9 +39,9 @@
 		AF855BFB940311C3D9337CE993F19341 /* Pods-DummyCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyCam.release.xcconfig"; sourceTree = "<group>"; };
 		B90F1436F5B1C4D73D35DA471AB76C3B /* Pods-DummyCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DummyCamUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BE86C5F88A676025DC914656B6B1636E /* Pods-DummyCam-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DummyCam-frameworks.sh"; sourceTree = "<group>"; };
-		E2A23AAC00EB6A8E70966A3E82033AA9 /* Pods_DummyCamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DummyCamUITests.framework; path = "Pods-DummyCamUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A23AAC00EB6A8E70966A3E82033AA9 /* Pods_DummyCamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyCamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB29B70F517470139A2450564DA30767 /* Pods-DummyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DummyCam-dummy.m"; sourceTree = "<group>"; };
-		EF134E3A99AFDAFD54088B163EB313A8 /* Pods-DummyCamUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DummyCamUITests.modulemap"; sourceTree = "<group>"; };
+		EF134E3A99AFDAFD54088B163EB313A8 /* Pods-DummyCamUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DummyCamUITests.modulemap"; sourceTree = "<group>"; };
 		FCAE808E21A8885416CE7F5AA01B9F5D /* Pods-DummyCamUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DummyCamUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,7 +185,6 @@
 				D2DF23A9DF5C298939DBA3E2B5B4F6F2 /* Core */,
 				39F62BD3562D53E6E85C33C4CCDC8E2D /* Crashes */,
 			);
-			name = MobileCenter;
 			path = MobileCenter;
 			sourceTree = "<group>";
 		};
@@ -316,7 +315,43 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+		272085594E1551C09CF9734355FB2D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D8DDD55E735CFFEA3140273F8551A6 /* Pods-DummyCamUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DummyCamUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DummyCamUITests/Pods-DummyCamUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DummyCamUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -360,7 +395,7 @@
 			};
 			name = Release;
 		};
-		64EE76DA88C4ED5C9350C8110A3234DA /* Release */ = {
+		A37C9DB1FE558A968461662EA7A2A576 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF855BFB940311C3D9337CE993F19341 /* Pods-DummyCam.release.xcconfig */;
 			buildSettings = {
@@ -378,7 +413,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-DummyCam/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DummyCam/Pods-DummyCam.modulemap";
@@ -386,7 +421,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.tsok.Pods-DummyCam";
 				PRODUCT_NAME = Pods_DummyCam;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -396,79 +431,7 @@
 			};
 			name = Release;
 		};
-		706A40CBEDB7976CC5D34921277633BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BCA321BEE2205DA5B2069EE7D273CDC /* Pods-DummyCam.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DummyCam/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DummyCam/Pods-DummyCam.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DummyCam;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7668CB1BEC4512A3D96CE78EFD572890 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95D8DDD55E735CFFEA3140273F8551A6 /* Pods-DummyCamUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DummyCamUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DummyCamUITests/Pods-DummyCamUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DummyCamUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		951438A5311AA3AFFB877924297E5DEB /* Release */ = {
+		C9A2335208622898E911EB9D4C8A78D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B90F1436F5B1C4D73D35DA471AB76C3B /* Pods-DummyCamUITests.release.xcconfig */;
 			buildSettings = {
@@ -486,7 +449,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-DummyCamUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DummyCamUITests/Pods-DummyCamUITests.modulemap";
@@ -504,7 +467,44 @@
 			};
 			name = Release;
 		};
-		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+		CE5AAECD61E29F313E5F15AB0B0B7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCA321BEE2205DA5B2069EE7D273CDC /* Pods-DummyCam.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DummyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DummyCam/Pods-DummyCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.tsok.Pods-DummyCam";
+				PRODUCT_NAME = Pods_DummyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -544,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -559,8 +559,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -568,8 +568,8 @@
 		673444D0493D329283F168E59AE9A021 /* Build configuration list for PBXNativeTarget "Pods-DummyCam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				706A40CBEDB7976CC5D34921277633BE /* Debug */,
-				64EE76DA88C4ED5C9350C8110A3234DA /* Release */,
+				CE5AAECD61E29F313E5F15AB0B0B7A39 /* Debug */,
+				A37C9DB1FE558A968461662EA7A2A576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -577,8 +577,8 @@
 		837BB73CFFC7A86C5A5984FB545C83A2 /* Build configuration list for PBXNativeTarget "Pods-DummyCamUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7668CB1BEC4512A3D96CE78EFD572890 /* Debug */,
-				951438A5311AA3AFFB877924297E5DEB /* Release */,
+				272085594E1551C09CF9734355FB2D7D /* Debug */,
+				C9A2335208622898E911EB9D4C8A78D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

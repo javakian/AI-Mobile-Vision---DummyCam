@@ -515,6 +515,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9E7WT5TMJR;
 				INFOPLIST_FILE = DummyCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ai.tsok.DummyCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +535,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9E7WT5TMJR;
 				INFOPLIST_FILE = DummyCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ai.tsok.DummyCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
